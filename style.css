@@ -12,7 +12,6 @@ html {
 .container {
     max-width: 720px;
     margin: 0 auto;
-    background: black;
     height: 100vh;
     background-image: url("bgLink.gif");
     background-position: center;
