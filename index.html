@@ -1,59 +1,50 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<title>Megumii's - Link</title>
-    <link rel="icon" href="./favicon.ico" />
-    <meta name="description" content="Created by me" />
-	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                'blue': '#1fb6ff',
-                'purple': '#7e5bef',
-                'pink': '#ff49db',
-                'orange': '#ff7849',
-                'green': '#13ce66',
-                'yellow': '#ffc82c',
-                'gray-dark': '#273444',
-                'gray': '#8492a6',
-                'gray-light': '#d3dce6',
-              }
-            }
-          }
-        }
-      </script>
-	<style media="screen">
-		.container{
-			width: 400px;
-			text-align: center;
-		}
-		@media only screen and (max-width: 600px) {
-			.container{
-    			width: 100%;
-			}
-		}
-	</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Shadows+Into+Light&family=Zen+Dots&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <title>Megumii's - Link</title>
+  <link rel="icon" href="./favicon.ico" />
+  <meta name="description" content="Created by me" />
 </head>
-<body bgcolor="#f8bbd0">
 
-    
+<body>
 
-
-
-<div class="container p-10x mx-auto mt-8">
-	<p><img class="rounded-full h-32 w-32 flex items-center justify-center mx-auto mb-4 border border-white" src="./profPict.png" /></p>
-	<p class="text-3xl text-pink-500">Megumii's list links</p>
-
-    <div class="group cursor-pointer">
-	<a href="https://twitter.com/megumii_tez"><img class="rounded-full h-14 w-14 flex items-center justify-center mx-auto mb-4" src="./src/twitter.png" /></a> <a href="https://github.com/Megumiiiiii"><img class="rounded-full h-14 w-14 flex items-center justify-center mx-auto mb-4" src="./src/git.png" /></a><a href="https://osu.ppy.sh/users/29234830"><img class="rounded-full h-14 w-14 flex items-center justify-center mx-auto mb-4" src="./src/osu.png" /></a><a href="https://www.lensfrens.xyz/katoumegumii.lens"><img class="rounded-full h-14 w-14 flex items-center justify-center mx-auto mb-4" src="./src/lens.png" /></a><a href="https://discordapp.com/users/873803230042263563"><img class="rounded-full h-14 w-14 flex items-center justify-center mx-auto mb-4" src="./src/discord.png" /></a><a href="https://mirror.xyz/megumii.eth/subscribe"><img class="rounded-full h-14 w-14 flex items-center justify-center mx-auto mb-4" src="./src/mirror.png" /></a><a href="https://t.me/KatouMegumii"><img class="rounded-full h-14 w-14 flex items-center justify-center mx-auto mb-4" src="./src/telegram.png" /></a> <a href="https://www.facebook.com/megumii.tez"><img class="rounded-full h-14 w-14 flex items-center justify-center mx-auto mb-4" src="./src/faceb.png" /></a>
+  <div class="container animate__animated animate__tada">
+    <!-- Foto Profil-->
+    <div class="profile">
+      <a href="https://megumii.xyz" rel="noreferrer" target="_blank"><img src="profPict.png" alt="profpict" class="animate__animated animate__fadeIn animate__slower 7s animate__delay-5s animate__infinite" /></a>
+      <p class="animate__animated animate__fadeInDown animate__delay-5s">megumii's list links</p>
     </div>
 
-</div>
+    <!-- Link -->
+    <div class="link">
+      <a href="https://twitter.com/megumii_tez" rel="noreferrer" target="_blank" class="animate__animated animate__bounceInLeft animate__delay-1s">Twitter</a>
+      <a href="https://github.com/Megumiiiiii" rel="noreferrer" target="_blank" class="animate__animated animate__bounceInRight animate__delay-2s">Github</a>
+      <a href="https://www.lensfrens.xyz/katoumegumii.lens" rel="noreferrer" target="_blank" class="animate__animated animate__bounceInLeft animate__delay-3s">Lens</a>
+      <a href="https://osu.ppy.sh/users/29234830" rel="noreferrer" target="_blank" class="animate__animated animate__bounceInRight animate__delay-4s">Osu!</a>
+      <a href="https://mirror.xyz/megumii.eth/subscribe" rel="noreferrer" target="_blank" class="animate__animated animate__bounceInLeft animate__delay-4s">Mirror</a>
+      <a href="https://discordapp.com/users/873803230042263563" rel="noreferrer" target="_blank" class="animate__animated animate__bounceInRight animate__delay-3s">Discord</a>
+      <a href="https://t.me/KatouMegumii" rel="noreferrer" target="_blank" class="animate__animated animate__bounceInLeft animate__delay-2s">Telegram</a>
+      <a href="https://www.facebook.com/megumii.tez" rel="noreferrer" target="_blank" class="animate__animated animate__bounceInRight animate__delay-1s">Facebook</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer animate__animated animate__fadeIn animate__delay-5s">
+      <i>I really appreciate it if you want to follow💜</i>
+    </div>
+  </div>
 
 </body>
+
 </html>
