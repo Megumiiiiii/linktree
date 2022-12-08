@@ -1,0 +1,11 @@
+@import 'attention_seekers/bounce.css';
+@import 'attention_seekers/flash.css';
+@import 'attention_seekers/pulse.css';
+@import 'attention_seekers/rubberBand.css';
+@import 'attention_seekers/shake.css';
+@import 'attention_seekers/headShake.css';
+@import 'attention_seekers/swing.css';
+@import 'attention_seekers/tada.css';
+@import 'attention_seekers/wobble.css';
+@import 'attention_seekers/jello.css';
+@import 'attention_seekers/heartBeat.css';

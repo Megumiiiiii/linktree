@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Zen Dots', cursive;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: black;
+    height: 100vh;
+    background-image: url("bgLink.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+.profile {
+    font-family: Zen Dots;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile>img {
+    width: 128px;
+    height: 128px;
+    border: 3px solid #070082;
+    border-radius: 100%;
+}
+
+.profile>p {
+    font-size: 27px;
+    font-weight: 100;
+    color: #070082;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.link {
+    font-family: Rubik Vinyl;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.link>a {
+    text-decoration: none;
+    color: #070082;
+    text-align: center;
+    font-size: 24px;
+    border: solid #070082;
+    border-radius: 7px;
+    margin: 3px 10px;
+    padding: 5px;
+}
+
+.link>a:hover {
+    background-color: rgb(20, 111, 172);
+}
+
+.footer {
+    font-family: Shadows Into Light;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer>i {
+    color: blue;
+}
