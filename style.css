@@ -17,6 +17,7 @@ html {
     background-image: url("https://media.giphy.com/media/MT0cvNklOJjnQZuhHn/giphy-downsized-large.gif");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .profile {
