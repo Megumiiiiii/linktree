@@ -10,7 +10,7 @@ html {
 }
 
 .container {
-    max-width: 0 auto;
+    max-width: 100vh;
     margin: 0 auto;
     height: 100vh;
     background-image: url("bgLink.gif");
@@ -57,7 +57,7 @@ html {
     font-size: 24px;
     border: solid #070082;
     border-radius: 7px;
-    margin: 3px 10px;
+    margin: 2px 20px;
     padding: 5px;
 }
 
