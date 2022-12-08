@@ -10,7 +10,7 @@ html {
 }
 
 .container {
-    max-width: 720px;
+    max-width: 0 auto;
     margin: 0 auto;
     height: 100vh;
     background-image: url("bgLink.gif");
