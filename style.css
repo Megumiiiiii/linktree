@@ -10,10 +10,10 @@ html {
 }
 
 .container {
-    max-width: 720px;
+    max-width: 1920px;
     margin: 0 auto;
     height: 100vh;
-    background-image: url("bg-Link.gif");
+    background-image: url("bbg.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
